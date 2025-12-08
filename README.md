@@ -58,7 +58,7 @@ Chứa Form với TextFormField cho Tiêu đề và Nội dung.
 Sử dụng Provider.of<NoteProvider>(context, listen: false) để gọi các hàm lưu/cập nhật ghi chú khi 
 người dùng nhấn nút lưu.
 
-6. File Gốc
+6 File Gốc
    main.dart: Điểm Khởi đầu Ứng dụng.
 Chứa logic khởi tạo sqflite_common_ffi để hỗ trợ cơ sở dữ liệu trên Desktop.
 Khởi tạo ChangeNotifierProvider cho NoteProvider và gọi loadNotes() ngay khi ứng dụng bắt đầu.
@@ -74,7 +74,7 @@ cấu hình đúng.
 Các dependencies cần thiết (như provider, sqflite, sqflite_common_ffi, intl,...) đã được thêm vào 
 file pubspec.yaml.
 
-2. Chuẩn bị Môi trường
+2 Chuẩn bị Môi trường
    Mở Terminal hoặc Command Prompt: Điều hướng đến thư mục gốc của dự án của  (nơi chứa thư mục lib).
 Tải Dependencies: Chạy lệnh sau để tải tất cả các gói cần thiết:
 Logic khởi tạo được đặt trong hàm main():
